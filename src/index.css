@@ -1,0 +1,9 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background-color: #ffffff;
+  height: 100vh;
+}

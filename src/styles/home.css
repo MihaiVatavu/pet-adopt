@@ -1,0 +1,21 @@
+.land-container {
+  margin: 3% auto;
+}
+
+.main-header {
+  margin: 2% auto;
+}
+
+h1 {
+  font-size: 7rem;
+}
+
+.btn-large {
+  margin-top: 1.5rem;
+}
+
+@media all and (max-width: 600px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
