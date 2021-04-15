@@ -38,7 +38,7 @@ const AddPet = () =>{
 
   return(
 
-    <div className="container">
+    <div className="container uitilityvh">
       <div className="row">
         {submitted ? (<h1 className="center">Thank you for helping</h1>)
         : (

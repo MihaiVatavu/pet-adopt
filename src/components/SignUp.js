@@ -22,7 +22,7 @@ const SignUp = () => {
  
   } 
   return ( 
-    <>
+    <div className="utilityvh">
       <h1 className="center">Sign Up</h1>
       <div className="row">
         <div className="col s12 m8 l4 offset-l4">
@@ -45,7 +45,7 @@ const SignUp = () => {
         </form>
         </div>
       </div>
-    </>
+    </div>
     
    );
 }

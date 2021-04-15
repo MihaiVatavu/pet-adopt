@@ -22,7 +22,7 @@ const LogIn = () => {
     return <Redirect to="/Dashboard" />;
   }else{ 
     return(
-      <>
+      <div className="utilityvh">
         <h1 className="center">Log In</h1>
         <div className="row">
           {error && <h4 className="center">Username or password incorrect</h4> }
@@ -42,7 +42,7 @@ const LogIn = () => {
           </form>
          </div>
         </div>
-      </>
+      </div>
         )
   }
  

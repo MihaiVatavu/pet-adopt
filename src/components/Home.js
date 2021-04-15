@@ -28,7 +28,7 @@ const Home = ()=> {
           <div className="parallax"><img src="assets/pet-parallax_two.jpg" alt="Woman and dog"/></div>
           </div>
       </div>  
-      <div class="row container">
+      <div class="row container home-icons">
         <div className="col s12 m8 offset-m2 l4">
           <img src="./assets/meet.png" alt="Meet your love" className="responsive-img"/>
           <h5 className="center">Love them</h5>

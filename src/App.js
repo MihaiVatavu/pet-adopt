@@ -7,14 +7,17 @@ import SignUp from './components/SignUp'
 import Dashboard from './components/Dashboard'
 import AddPet from './components/AddPet'
 import PetGrid from './components/PetsGrid'
+import Footer from './components/Footer'
 
 
 function App() {
 
   return (
     <Router>
-      <div className="main">
+      <div>
+ 
         <Navbar/>
+        <div className="main">
         <Switch>
           <Route exact={true} path="/" component={Home}/>
           <Route exact={true} path="/LogIn" component ={LogIn}/>
@@ -23,8 +26,9 @@ function App() {
           <Route exact={true} path="/AddPet" component={AddPet}/>
           <Route exact={true} path="/PetGrid" component={PetGrid}/>     
         </Switch>
-      </div>
-     
+        </div>
+        <Footer/> 
+      </div>   
     </Router>
    
   );

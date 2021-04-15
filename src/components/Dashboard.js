@@ -55,7 +55,7 @@ const Dashboard =  () => {
      if(!authUser) {
       return <Loading/>
      }  return (
-       <div className="container">
+       <div className="container utilityvh">
          <h2 className="center">Hello {userName}</h2>
          <div className="row">
             <div className="col s12 m8 offset-m2 l6 offset-l3 center">
