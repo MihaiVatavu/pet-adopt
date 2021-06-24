@@ -7,7 +7,7 @@
 ## Overview
 
 The application works like portal where people can find pets to adopt.
-They can search for pets and see the details of each pet without having an account, but if someone wants to add a pet for adoption hte person would need to create an acoount.
+They can search for pets and see the details of each pet without having an account, but if someone wants to add a pet for adoption the person would need to create an account.
 
 # Technologies
 
